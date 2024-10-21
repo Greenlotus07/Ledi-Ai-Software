@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <header className="bg-black bg-opacity-30 backdrop-blur-md">
-      <div className="container mx-auto px-4 py-4 flex items-center justify-between">
+      <div className="container mx-auto px-1 py-4 flex items-center justify-between">
         <Link to="/" className="flex items-center space-x-2">
           <Music className="w-8 h-8 text-pink-500" />
           <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-purple-500">
@@ -24,7 +24,7 @@ const Header = () => {
           </span>
         </Link>
         <nav>
-          <ul className="flex space-x-6">
+          <ul className="flex space-x-1">
             <li>
               <Link to="/studio" className="flex items-center space-x-1 hover:text-pink-500 transition-colors">
                 <Music className="w-4 h-4" />
