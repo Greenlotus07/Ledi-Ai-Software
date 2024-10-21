@@ -3,12 +3,12 @@ import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyC8ru_MndeC9rtX515L_EVrB8hoEYt3tWk",
+  authDomain: "ledi-ai-software.firebaseapp.com",
+  projectId: "ledi-ai-software",
+  storageBucket: "ledi-ai-software.appspot.com",
+  messagingSenderId: "854109065705",
+  appId: "1:854109065705:web:b878c3f8664a939dfa3b78"
 };
 
 const app = initializeApp(firebaseConfig);
