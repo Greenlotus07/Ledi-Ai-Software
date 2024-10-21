@@ -18,7 +18,7 @@ function App() {
       <Router>
         <div className="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-800 text-white">
           <Header />
-          <main className="container mx-auto px-4 py-8">
+          <main className="container mx-auto px-1 py-8">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/studio" element={
